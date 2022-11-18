@@ -12,24 +12,24 @@ import ContentBlock from "@/components/ContentBlock.vue";
 import ServiceSearch from "@/components/ServiceSearch.vue";
 import Services from "@/components/Services.vue";
 export default {
-  name: "Home",
+  name: "Donate",
   data() {
     return {
       contentBlock: {
-          title: 'We are a social change charity, helping people to improve their lives through digital.',
-          copy: 'We tackle the most pressing issues of our time, working with partners in thousands of communities across the UK and further afield.',
+          title: 'Donate - Lorem ipsum',
+          copy: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium et corporis nam perferendis, libero molestiae vel modi saepe, veritatis, consectetur autem! Atque nobis excepturi temporibus, mollitia quasi deserunt nesciunt sapiente?',
           link: {
               url: '/what-we-do',
               text: 'Learn more about us'
           }
       },
       serviceSearch: {
-        title: 'How can we help you?',
-        body: "Let us know who you are and what you're looking for, and we'll help get you to the right place."
+        title: 'Lorem Ipsum',
+        body: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium et corporis nam perferendis, libero molestiae vel modi saepe, veritatis, consectetur autem!"
       },
       services: {
-        title: 'What do we do?',
-        subtitle: "You might not have heard of us, but we're the people behind the following impactful programmes",
+        title: 'Lorem Ipsum',
+        subtitle: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium et corporis nam perferendis.",
         cards: [
             {
                 title: 'Get online week',

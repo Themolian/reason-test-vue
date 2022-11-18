@@ -1,0 +1,46 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: bold;
+}
+// Set the margins on these elements
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: $font-primary;
+  margin-top: 0px;
+  margin-bottom: 24px;
+}
+
+p,
+span,
+select,
+option,
+input,
+textarea {
+  font-family: $font-primary;
+}
+
+h2 {
+  font-size: 1.5rem;
+  @media (min-width: 768px) {
+    font-size: 2.4rem;
+    line-height: 2.8rem;
+  }
+}
+
+.text-large p,
+p.large {
+  margin-bottom: 24px;
+  @media (min-width: 768px) {
+    font-size: 1.5rem;
+    line-height: 1.8rem;
+  }
+}
